@@ -55,7 +55,7 @@ function Review() {
       setComments([newComment, ...comments]);
       setAuthor('');
       setText('');
-      setRating(0); // Reset to 0 instead of an empty string
+      setRating(0);
     }
   };
 
@@ -100,7 +100,7 @@ function Review() {
           </div>
         </div>
 
-        {/* Displaying Comments */}
+        
         <div>
           {comments.length > 0 ? (
             comments.map((comment, index) => (
