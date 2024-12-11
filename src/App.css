@@ -1,0 +1,146 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  background:url('https://static.vecteezy.com/system/resources/thumbnails/022/575/456/small_2x/chamomile-flower-field-camomile-in-the-nature-field-of-camomiles-at-sunny-day-at-nature-camomile-daisy-flowers-in-summer-day-chamomile-flowers-field-wide-background-in-sun-light-generative-ai-photo.jpg');
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+h1{
+  color:#a27a90;
+}
+.comment{
+  display: flex;
+  width: 980px;
+  background-color: #f9f9f9;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  transition: all 0.3s ease;
+}
+.comment-section {
+  width: 70%;
+  /* height: auto; */
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+.comment-section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #905575d3;
+}
+
+.comment-form {
+  margin-bottom: 30px;
+}
+
+
+.comment-form h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.comment-form input,
+.comment-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.comment-form input {
+  background-color: #dbd8d8a8;
+  color: black;
+  font-size: 25px;
+}
+
+.comment-form textarea {
+  background-color: #d0cfcf;
+  color: black;
+  height: 120px;
+  font-size:20px;
+}
+
+.comment-form button {
+  padding: 12px 20px;
+  background-color: #905575d3;
+  color:white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: all 0.5s linear;
+  margin-top: 10px;
+}
+
+.comment-form button:hover {
+  background-color: #784762;
+  box-shadow: 0 0px 19px 5px #898a89;
+  /* transform: scale(1.0); */
+}
+
+
+.comments-list {
+  margin-top: 20px;
+}
+
+.comment:hover {
+  transform: translateY(-5px);
+}
+
+.comment strong {
+  color: #905575d3;
+  font-weight: bold;
+  /* text-align: left; */
+}
+.comment p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #666;
+}
+.display-comments{
+  width: 100%;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+.display-comments p{
+  font-size: 20px;
+}
+.no-comments {
+  font-size: 18px;
+  color: #888;
+  font-style: italic;
+  margin-top: 20px;
+}
+.rating{
+  font-size: 40px;
+  display: flex;
+  gap: 5px;
+  cursor: pointer;
+}
+.star{
+  color: #949191;
+}
+.star.filled{
+  color: gold;
+}
+
